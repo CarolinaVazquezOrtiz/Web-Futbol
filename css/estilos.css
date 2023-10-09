@@ -1,0 +1,165 @@
+
+@import url("fonts/stylesheet.css");
+
+html{
+    scroll-behavior:smooth
+}
+
+
+header{
+    height: 75vh;
+    background-image:  url(../imagenes/uruguay-ecuador-copa-america.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  center top
+}
+.logo{
+    height: 75px
+}
+.navbar {
+    background-image:  url(../imagenes/fondo_logo.png);
+    border-bottom: 10px solid #fff;
+    background-size: cover;
+}
+.navbar .nav-link{
+    padding: 10px;
+    margin: 0 10px;
+    color:#fff !important;
+}
+.navbar .nav-link:hover{
+    font-weight: bold
+}
+.active{
+    border-bottom:1px solid #fff
+}
+.navbar-toggler , .navbar-toggler:focus{
+    outline: none;
+    border: none;
+    background-color: transparent
+}
+
+.menuPaises{
+    background-color: #155724;
+    border-bottom: 10px solid #fff;
+      border-top: 10px solid #fff;
+    color: #fff
+}
+.menuPaises nav img{
+
+    border: 4px dashed transparent;
+    padding: 4px;
+    transition: 1s
+}
+
+.menuPaises nav img:hover{
+    border-color: #669900
+}
+
+
+
+h2{
+    font-weight: 600;
+
+}
+h2:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    margin-bottom:  10px;
+    background-color: #fff
+}
+.uruguay{
+    background-color: #2fa5fb;
+    position: relative
+}
+
+.ecuador{
+    background-color: #c69500;
+
+}
+.japon{
+    background-color: #bd2130;
+    color: #fff
+}
+.chile{
+    background-color: #002752;
+    color: #fff
+}
+footer{
+    color: #fff;
+    background-color: #155724
+}
+footer h1{
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    font-weight: 600;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px
+
+}
+footer p{
+    font-size: 14px;
+    margin: 0
+}
+/*Contacto*/
+:focus{
+    outline:0;
+}
+
+input{
+    padding: 5px;
+    border:0;
+    border-bottom: 2px solid #155724;
+    width: 100%;
+}
+
+fieldset{
+margin: 40px 0 0 0;
+border:0;
+}
+
+legend{
+    margin-bottom: 10px;
+}
+
+input[type=radio]{
+    padding: 0;
+    margin-right: 5px;
+    width: auto;
+}
+
+input[type=radio] + label{
+    margin-right: 20px;
+}
+
+input:focus, textarea:focus{
+        border-color: #669900;
+
+}
+.enviar{
+    background-color: #155724;
+    color: #fff
+}
+.enviar:hover{
+    background-color: #669900
+}
+
+textarea{
+    resize: none;
+    padding: 5px;
+    border:0;
+    border: 2px solid #155724;
+    display: block;
+    margin-top: 40px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+
+@media screen and (max-width :740px)
+{
+    .navbar .nav-link{
+        font-size: 35px;
+    }
+}
